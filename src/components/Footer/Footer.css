@@ -1,0 +1,18 @@
+.footer {
+
+  padding-bottom: 2rem;
+}
+
+.footer .content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.secondary-text {
+  font-size: 0.7rem;
+  text-align: right;
+  color: black;
+
+}
