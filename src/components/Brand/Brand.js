@@ -33,19 +33,20 @@ export default function Brand() {
               <i class="fas fa-sliders-h"></i>
             </div>
           </nav>
-          <section className="overview">
-          <div className="content">
+          <section className="overview1">
+          <div className="content2">
           <img src={img1} style={{ width: 300, height: 500 }} alt="No found"  />
-          <div className="right">
-            <h3 className="title">
+          <div className="right2">
+            <h3 className="title2">
                 Travel the world &<br/> meet new friends.
-            </h3>
-            <p className="secondary-text">
+            </h3><div>
+            <p className="secondary-text2">
             Create custom landing pages with Omega that convert<br/>
              more visitors than any website. With lots of unique blocks,<br/>
               you can easily build a page without coding.
             </p>
             <input placeholder="Email address" /><button className="inbtn">I want to join</button>
+            </div>
           </div>
         </div>
     </section>

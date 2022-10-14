@@ -1,6 +1,30 @@
-@media only screen and (max-width: 600px) {
+.bgimg img{
+    width: 100%;
+    height: 40rem;
+}
+@media only screen and (max-width: 1200px) {
+    .bgimg img{
+        width: 100%;
+        height: 30rem;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .bgimg img{
+        width: 100%;
+        height: 20rem;
+    }
+}
+@media only screen and (max-width: 500px) {
     .bgimg img{
 
-        width: 100%;
+        width: 29rem;
+        height: 10rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .bgimg img{
+
+        width: 33rem;
+        height: 10rem;
     }
 }

@@ -23,7 +23,7 @@ export default function Services() {
             </p>
           </div>&nbsp;&nbsp;&nbsp;
 
-          <div className="sec-3">
+          <div className="sec-2">
             <h3 className="title"><span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>
               <span class="fa fa-star checked"></span>

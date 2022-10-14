@@ -1,37 +1,101 @@
-.overview {
+.overview4 {
   padding: 2rem 0;
 }
-.right{
+.right4{
   margin-top: 100px;
 }
-.overview .content {
+.overview4 .content4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.overview .content img {
+.overview4 .content4 img {
   width: 20%;
   height: 20rem;
 }
 
-.overview .content .title {
+.overview4 .content4 .title44 {
   line-height: 1.5rem;
   letter-spacing: 0.1rem;
   margin-bottom: 1rem;
 }
 
-.overview .content .secondary-text {
+.overview4 .content4 .secondary-text4 {
   font-size: 0.8rem;
   margin-bottom: 2rem;
+  margin-top: 3rem;
   color: black;
+}
+@media only screen and (max-width: 1200px) {
+  .overview4 .content4 {
+    display: inline-flex;
+}
+.overview4 .content4 .title4 {
+  /* line-height: 1.5rem; */
+  letter-spacing: 0.1rem;
+  /* margin-bottom: 1rem; */
+}
+.overview4 .content4 .secondary-text4 {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 3rem;
+  color: black;
+}
+.overview4 .content4 .title4 {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  /* margin-bottom: 1rem; */
+}
+
+  .right4 {
+    margin-top: 27px;
+}
 }
 
 @media only screen and (max-width: 600px) {
-  .overview .content img {
-    width: 100%;
-    height: 100%;
+  .overview4 .content4 img {
+    width: 40%;
+    height: 40%;
   }
-  .overview .content {
-    justify-content: start;
+  .overview4 .content4 {
+    display: inline-flex;
+}
+.overview4 .content4 .title4 {
+  /* line-height: 1.5rem; */
+  letter-spacing: 0.1rem;
+  /* margin-bottom: 1rem; */
+}
+.overview4 .content4 .secondary-text {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: -3rem;
+  color: black;
+}
+.overview4 .content4 .title4 {
+  line-height: 1.5rem;
+  letter-spacing: 0.1rem;
+  /* margin-bottom: 1rem; */
+}
+.overview4 .content4 .secondary-text4 {
+  font-size: 0.8rem;
+  margin-bottom: 0rem;
+  color: black;
+}
+  .right {
+    margin-top: 27px;
+}
+
+}
+@media only screen and (max-width: 400px) {
+  .overview4 .content4 img {
+    width: 42%;
+    height: 12rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+ 
   }
+  .overview4 {
+    padding: 2rem 0;
+    margin-left: 4rem;
+}
 }
